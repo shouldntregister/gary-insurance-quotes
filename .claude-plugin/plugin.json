@@ -1,0 +1,17 @@
+{
+  "name": "gary-insurance-quotes",
+  "displayName": "Gary Insurance Quotes",
+  "version": "1.0.0",
+  "description": "Real Australian insurance quotes from Gary, an online broker: car, home, landlord, professional indemnity and cyber, plus searching the insurers' policy wordings.",
+  "author": {
+    "name": "Lang Broking Co Pty Ltd",
+    "url": "https://gogary.com.au"
+  },
+  "homepage": "https://gogary.com.au/ai",
+  "repository": "https://github.com/shouldntregister/gary-insurance-quotes",
+  "license": "MIT",
+  "keywords": ["insurance", "australia", "quotes", "car-insurance", "home-insurance", "professional-indemnity", "cyber-insurance"],
+  "documentationUrl": "https://gogary.com.au/ai",
+  "supportUrl": "https://gogary.com.au/contact",
+  "privacyPolicyUrl": "https://gogary.com.au/privacy"
+}

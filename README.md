@@ -6,17 +6,33 @@ It covers car, home and contents, landlord, professional indemnity and cyber ins
 
 ## Install
 
+As a Claude Code plugin, which includes both the skill and the connector:
+
+```bash
+claude plugin install gary-insurance-quotes --marketplace shouldntregister/gary-insurance-quotes
+```
+
+As a skill only, for other agents:
+
 ```bash
 npx skills add shouldntregister/gary-insurance-quotes
 ```
 
-The skill tells your agent how to use the connector. To add the connector itself in Claude Code:
+The skill tells your agent how to use the connector, but doesn't add it. To add the connector in Claude Code:
 
 ```bash
 claude mcp add --transport http gary https://api.gogary.com.au/v1/mcp
 ```
 
 For Claude, ChatGPT and other apps, see [gogary.com.au/ai](https://gogary.com.au/ai).
+
+## What it runs and sends
+
+This plugin contains one skill (instructions) and one remote MCP server, `https://api.gogary.com.au/v1/mcp`, which Gary runs. It has no hooks or scripts and installs no packages. The only command in it is an optional `curl` example, which calls the same server.
+
+- **Sent to Gary:** the answers you give for a quote, and your searches of the policy wordings.
+- **Sent on to insurers:** your answers go to the insurers on Gary's panel when your agent asks for a price. Some insurers keep a quote record.
+- **Your account:** if you use the account tools, you sign in and approve access in your own browser. Your agent then gets a token that lasts up to 30 days, and it can see your quotes, policies, documents, claims and payments due. With your OK, it can also lodge a claim, send a change request or record a lender.
 
 ## What your agent will and won't do
 

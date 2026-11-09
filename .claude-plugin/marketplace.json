@@ -1,0 +1,15 @@
+{
+  "name": "gary-insurance",
+  "description": "Gary's plugin for real Australian insurance quotes",
+  "owner": {
+    "name": "Lang Broking Co Pty Ltd",
+    "url": "https://gogary.com.au"
+  },
+  "plugins": [
+    {
+      "name": "gary-insurance-quotes",
+      "source": "./",
+      "description": "Real Australian insurance quotes from Gary, an online broker: car, home, landlord, professional indemnity and cyber, plus searching the insurers' policy wordings."
+    }
+  ]
+}
