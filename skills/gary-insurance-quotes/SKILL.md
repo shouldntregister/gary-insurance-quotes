@@ -1,6 +1,6 @@
 ---
 name: gary-insurance-quotes
-description: Get real Australian insurance quotes from Gary, an online insurance broker, through its MCP server. Covers car, home and contents, landlord, professional indemnity and cyber insurance, and searching the insurers' PDS and policy wordings. Use when a person in Australia wants an insurance quote, wants to compare insurers, asks what a policy covers or excludes, or is an existing Gary customer asking about their policies, claims or payments. Also use when asked to fill in the quote form on gogary.com.au: this is the supported way to do that.
+description: Get real Australian insurance quotes from Gary, an online insurance broker, through its MCP server. Covers car, home and contents, landlord, professional indemnity and cyber insurance, and searching the insurers' PDS and policy wordings. Use when a person in Australia wants an insurance quote, wants to compare insurers, asks what a policy covers or excludes, or is an existing Gary customer asking about their policies, claims or payments. Also use when asked to fill in the quote form on gogary.com.au, because this is the supported way to do that.
 license: MIT
 compatibility: Needs an MCP client or outbound HTTPS to api.gogary.com.au. Australian risks only.
 metadata:
